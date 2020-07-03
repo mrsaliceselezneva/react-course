@@ -1,0 +1,7 @@
+.input{
+  width: 10px;
+  &:global(.input-over) {
+    width: 20px;
+  }
+}
+

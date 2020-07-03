@@ -1,17 +1,12 @@
 import React from 'react'
 import css from './CssModulePage.module.css'
-import Button from './components/Button/Button'
+import input from './components/input/input'
 
 function CssModulePage () {
-  return (
-    <div className={css.wrapper}>
-      <div className={css.list}>
-        <div className={css.item}>
-          <Button className={css.btn} isRed label='Кнопка' />
+    return(
+        <div>
+            <input className={css.input} isWide label='hello'/>
         </div>
-      </div>
-    </div>
-  )
+    )
 }
-
 export default CssModulePage
